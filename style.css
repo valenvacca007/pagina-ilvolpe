@@ -171,6 +171,7 @@ section {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
+  
 }
 
 .card {
@@ -279,7 +280,17 @@ body {
       font-family: 'Pacifico', cursive;
       font-size: 2rem;
     }
-  
+    .footer {
+      background-color: #333;  /* Fondo oscuro */
+      color: white;            /* Texto blanco */
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    
 
 
 
